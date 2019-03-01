@@ -29,7 +29,7 @@ Download latest GoSDK from https://download.appdynamics.com/download/#version=&a
 5. check the url browser or curl at http://127.0.0.1:8080
 
 
-## Using the Dockerfile
+## Using the Dockerfile - Recommended one
 
 ### steps
 
@@ -40,7 +40,7 @@ Download latest GoSDK from https://download.appdynamics.com/download/#version=&a
 docker build -t golang:v1 .
 ```
 
-4.
+4. Docker Run
 ```
 docker run -p 8080:8080 golang:v1
 ```
