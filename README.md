@@ -22,7 +22,7 @@ Download latest GoSDK from https://download.appdynamics.com/download/#version=&a
 
 ## Run on local linux machine
 ### steps
-1. Clone this project: git clone git@github.com:arungpro/Golang_Appd_Sample.git and cd <cloned project>
+1. Clone this project: git clone git@github.com:arungpro/Golang_Appd_Sample.git and cd < cloned project >
 2. Replace golang-sdk-x64-linux-4.5.1.0.tar with lastest downloaded golang-sdk.
 3. untar lastest downloaded golang-sdk to gopath: ```tar -xvf <lastest downloaded golang-sdk>.tar $GOPATH/src```
 4. Build and start the application: ```go build main.go & go run main.go```
@@ -33,7 +33,7 @@ Download latest GoSDK from https://download.appdynamics.com/download/#version=&a
 
 ### steps
 
-1. Clone this project: git clone git@github.com:arungpro/Golang_Appd_Sample.git and cd <cloned project>
+1. Clone this project: git clone git@github.com:arungpro/Golang_Appd_Sample.git and cd < cloned project >
 2. Replace golang-sdk-x64-linux-4.5.1.0.tar with lastest downloaded golang-sdk.
 3. Docker Build
 ```
