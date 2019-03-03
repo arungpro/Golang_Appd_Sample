@@ -48,11 +48,11 @@ func main() {
     cfg := appd.Config{}
  	// Configure AppD
 	// Controller
-	cfg.Controller.Host = "ec2-52-64-15-64.ap-southeast-2.compute.amazonaws.com"
+	cfg.Controller.Host = "ec2-52-xxxx-15-xxxx.ap-southeast-2.compute.amazonaws.com"
 	cfg.Controller.Port = 8090
 	cfg.Controller.UseSSL = false
 	cfg.Controller.Account = "customer1"
-	cfg.Controller.AccessKey = "cc85737f-7626-41a2-81d6-2c72250f07d3"
+	cfg.Controller.AccessKey = "xxxx-7626-41a2-xxx-xxxxxx"
 
 	// App Context
 	cfg.AppName = "Docker_devil"
