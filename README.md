@@ -22,8 +22,7 @@ Download latest GoSDK from https://download.appdynamics.com/download/#version=&a
 ----------------------------------------------------------------------------------------------
 I have tried to summaries Golang Application Instrumentation in
 
-a. Virtual linux machine Environment.
-
+a. Virtual linux machine Environment.  
 b. Container based Environment.
 
 
