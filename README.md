@@ -19,8 +19,8 @@ Download latest GoSDK from https://download.appdynamics.com/download/#version=&a
     cfg.Controller.Account = "<Your Account Name>"
     cfg.Controller.AccessKey = "<Your Access Key>"
 ```
-
-## Run on local linux machine
+----------------------------------------------------------------------------------------------
+## To Run on Virtual linux machine
 ### steps
 1. Clone this project: git clone git@github.com:arungpro/Golang_Appd_Sample.git and cd < cloned project >
 2. Replace golang-sdk-x64-linux-4.5.1.0.tar with lastest downloaded golang-sdk.
@@ -28,8 +28,8 @@ Download latest GoSDK from https://download.appdynamics.com/download/#version=&a
 4. Build and start the application: ```go build main.go & go run main.go```
 5. check the url browser or curl at http://127.0.0.1:8080
 
-
-## Using the Dockerfile - Recommended one
+----------------------------------------------------------------------------------------------
+## To Run in a Container Environment
 
 ### steps
 
