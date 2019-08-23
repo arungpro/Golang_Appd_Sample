@@ -20,7 +20,11 @@ Download latest GoSDK from https://download.appdynamics.com/download/#version=&a
     cfg.Controller.AccessKey = "<Your Access Key>"
 ```
 ----------------------------------------------------------------------------------------------
-## To Run on Virtual linux machine
+I have tried to summaries Golang Application Instrumentation in
+a. Virtual linux machine Environment
+b. Container based Environment
+
+## a. To Run on Virtual linux machine
 ### steps
 1. Clone this project: git clone git@github.com:arungpro/Golang_Appd_Sample.git and cd < cloned project >
 2. Replace golang-sdk-x64-linux-4.5.1.0.tar with lastest downloaded golang-sdk.
@@ -29,7 +33,7 @@ Download latest GoSDK from https://download.appdynamics.com/download/#version=&a
 5. check the url browser or curl at http://127.0.0.1:8080
 
 ----------------------------------------------------------------------------------------------
-## To Run in a Container Environment
+## b. To Run in a Container Environment
 
 ### steps
 
